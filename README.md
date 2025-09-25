@@ -32,6 +32,8 @@ coles-analytics/
 
 ├─ tests/                    # unit tests
 
+├─ docs/                     # docs
+│  ├─ schema.md
 ├─ requirements.txt          # Python dependencies
 
 └─ README.md                 # this file
