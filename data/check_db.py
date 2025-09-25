@@ -1,0 +1,10 @@
+import sqlite3
+conn = sqlite3.connect("data/analytics.db")
+cur = conn.cursor()
+cur.execute("SELECT COUNT(*) FROM products")
+print("Products:", cur.fetchone()[0])
+cur.execute("SELECT COUNT(*) FROM transactions")
+print("Transactions:", cur.fetchone()[0])
+cur.execute("SELECT COUNT(*) FROM transaction_items")
+print("Transaction items:", cur.fetchone()[0])
+conn.close()
