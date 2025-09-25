@@ -54,7 +54,7 @@ coles-analytics/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOURNAME/coles-analytics.git
+git clone https://github.com/Manwithtechie/coles-analytics.git
 cd coles-analytics
 ```
 
